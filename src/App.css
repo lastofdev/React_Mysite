@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.HeaderBackground{
+  background-color: none;
+
+}
+.HeaderElements {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  border-width: 1px;
+  border: 1px;
+}
+.HeaderRightMenu{
+  display: flex;
+  list-style-type: none;
+  color: black;
+}
+
+.HeaderRightMenu li {
+  padding: 5px;
+}
+.BackgroundImage{
+  height: 800px;
+  background-size: cover;
+  background-color:rgba(74, 82, 87, 0.205);
+}
+.blur{
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(1px);
+  height: 800px
+
+}
+.PhotoBlock{
+  margin-top: 40px;
+  height: 250px;
+  max-width: 700px;
+  display: flex;
+  justify-content: stretch;
+  flex-wrap: nowrap;
+}
+.BlockStyleGlass{
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.521);
+  backdrop-filter: blur(8px);
+  -webkit-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+margin-left: auto;
+  margin-right: auto;
+
+}
+.Photo{
+  height: 250px;
+  background-color: rgb(39, 20, 141);
+  min-width: 200px;
+  background-image: url(./img/2020-06-03\ 18.59.20.jpg);
+  background-position: left;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.ShortContact li{
+  list-style-type: none;
+}
+.ShortContact{
+  flex-grow: 1;
+}
+.ShortContact li text{
+  font-size: 21px;
+}
+.TextName{
+  font-size: 23px;
+}
+.ShortContact ul{
+  margin-left: -20px;
+  margin-top: 30px;
+}
+.Contact {
+  padding-top: 25px;
+}
+.Contact li{
+  padding: 5px;
+}
+.BlockSkills{
+  height: 250px;
+}
+.Skills{
+  width: 340px;
+  height: 300px;
+  margin: 10px;
+  margin-top: 50px;
+}
+.BlockSkills{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.TopicsName{
+ display: flex;
+ justify-content: center;
+ margin-top: 50px;
+ padding-bottom: 15px;
+ font-size: 35px;
+ text-transform: uppercase;
+ text-align: center;
+}
+.TopicsName text{
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.15), 5px 4px 0px rgba(0,0,0,0.15), 2px 11px 4px rgba(206,89,55,0);
+}
+ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+h4 {
+  margin: 5px;
+}
+.ProgressBar{
+ width: 250px;
+ height: 10px;
+ background-color: rgba(84, 90, 94, 0.377);
+ border-radius: 4px;
+ -webkit-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+}
+.ProgressBarValue{
+  background-color: rgb(24, 102, 151);
+  height: 10px;
+  border-radius: 4px;
+}
+
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  
+}
+.SkillsTopic {
+  background-color: rgb(28, 32, 32);
+ width: 220px;
+ height: 45px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -40px;
+ color: rgb(253, 253, 253);;
+ vertical-align: center;
+ 
+}
+ul {
+  margin-top: 15px;
+}
+.ValueHTML{
+  width: 85%;
+  height: 10px;
+}
+.ValueJS{
+  width: 60%;
+  height: 10px;
+}
+.ValueReact{
+  width: 40%;
+  height: 10px;
+}
+.ValueNode{
+  width: 30%;
+  height: 10px;
+}
+.ValueC{
+  width: 10%;
+  height: 10px;
+}
+.ValuePhotoshop{
+  width: 80%;
+  height: 10px;
+}
+.Miniblock{
+  height: 20px;
+  background-color: black;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  color: white;
+}
+.MiniBlockFlex{
+  display: flex;
+  flex-wrap: wrap;
+}
