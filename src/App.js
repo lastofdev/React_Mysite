@@ -5,11 +5,12 @@ import { MainInfo } from './blocks/Main';
 import { Skills } from './blocks/Skills';
 
 
+
 function App() {
   return (
     <div >
       <div className="BackgroundImage">
-        <div className="blur">
+        <div сlassName="MainFlex">
         <Header />
         <MainInfo />
         <Skills />

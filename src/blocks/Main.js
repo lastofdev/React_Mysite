@@ -5,20 +5,20 @@ export function MainInfo() {
 return (
     <div>
         <div className="PhotoBlock BlockStyleGlass">
-            <div className="Photo"></div>
-            <div className="ShortContact">
+            <div className="Photo "></div>
+            <div className="ShortContact ">
                 <ul>
                     <li className="TextName">
-                        <b>Самсонов Владислав</b>
+                        <span>Samsonov Vladislav</span>
                     </li>
                     <li>
-                        <text>Frontend developer</text>
+                        <span>Frontend developer</span>
                     </li>
                 </ul>
                 <ul className="Contact">
                     <li>helplike3d@yandex.ru</li>
                     <li>+7 (999) 095-24-01</li>
-                    <li>Москва</li>
+                    <li>Moscow</li>
                 </ul>
             </div>
         </div>

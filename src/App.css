@@ -3,30 +3,52 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .HeaderBackground{
-  background-color: none;
+}
+.LogoName{
 
+ font-size: 20px;
+ color: transparent;
+background: #666666;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
 }
 .HeaderElements {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 50px;
   border-width: 1px;
   border: 1px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .HeaderRightMenu{
   display: flex;
   list-style-type: none;
   color: black;
 }
-
+.HeaderLink{
+  font-size: 20px;
+  font-weight: 500;
+  color: transparent;
+background: #666666;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
 .HeaderRightMenu li {
   padding: 5px;
 }
 .BackgroundImage{
-  height: 800px;
-  background-size: cover;
-  background-color:rgba(74, 82, 87, 0.205);
+  height: 1500px;
+  background-color:rgba(247, 244, 244, 0.973);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .blur{
   background: rgba(255, 255, 255, 0.2); 
@@ -35,39 +57,50 @@
 
 }
 .PhotoBlock{
-  margin-top: 40px;
-  height: 250px;
   max-width: 700px;
   display: flex;
-  justify-content: stretch;
+  justify-content: center;
   flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: auto; 
+   
 }
 .BlockStyleGlass{
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.521);
   backdrop-filter: blur(8px);
-  -webkit-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
--moz-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+  box-shadow:3px 2px 10px 3px rgba(0,0,0,0.27);
+-webkit-box-shadow:3px 2px 10px 3px rgba(0,0,0,0.27);
+-moz-box-shadow:3px 2px 10px 3px rgba(0,0,0,0.27);
 margin-left: auto;
   margin-right: auto;
 
 }
 .Photo{
-  height: 250px;
+  height: 255px;
   background-color: rgb(39, 20, 141);
-  min-width: 200px;
+  min-width: 150px;
   background-image: url(./img/2020-06-03\ 18.59.20.jpg);
   background-position: left;
   background-size: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px; 
+  margin-right: auto;
+ 
+
+}
+.MainFlex{
+  display: flex;
+  flex-direction: column;
 }
 .ShortContact li{
   list-style-type: none;
 }
 .ShortContact{
+  width: 300px;
   flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto; 
 }
 .ShortContact li text{
   font-size: 21px;
@@ -83,7 +116,7 @@ margin-left: auto;
   padding-top: 25px;
 }
 .Contact li{
-  padding: 5px;
+  padding: 2px;
 }
 .BlockSkills{
   height: 250px;
@@ -126,14 +159,26 @@ h4 {
  height: 10px;
  background-color: rgba(84, 90, 94, 0.377);
  border-radius: 4px;
- -webkit-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
--moz-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
-box-shadow: 8px 6px 11px -5px rgba(34, 60, 80, 0.2);
+ 
 }
 .ProgressBarValue{
-  background-color: rgb(24, 102, 151);
+  background-color: rgb(24, 151, 77);
   height: 10px;
   border-radius: 4px;
+}
+.AdditionProgressBar {
+  width: 250px;
+  height: 10px;
+  background-color: rgba(84, 90, 94, 0.377);
+  border-radius: 4px;
+}
+.AdditionProgressBarValue{
+  background-color: rgb(24, 151, 77);
+  height: 10px;
+  border-radius: 4px;
+}
+.AdditionTopi h4{
+  text-align: center;
 }
 
 h2{
@@ -144,17 +189,27 @@ h2{
 }
 .SkillsTopic {
   background-color: rgb(28, 32, 32);
- width: 220px;
+  width: 220px;
  height: 45px;
  margin-left: auto;
  margin-right: auto;
  margin-top: -40px;
  color: rgb(253, 253, 253);;
  vertical-align: center;
- 
 }
+.SkillsTopicAddition{
+  background-color: rgb(28, 32, 32);
+  width: 180px;
+ height: 45px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -40px;
+ color: rgb(253, 253, 253);;
+ vertical-align: center;
+}
+
 ul {
-  margin-top: 15px;
+  margin-top: 30px;
 }
 .ValueHTML{
   width: 85%;
@@ -165,11 +220,11 @@ ul {
   height: 10px;
 }
 .ValueReact{
-  width: 40%;
+  width: 45%;
   height: 10px;
 }
 .ValueNode{
-  width: 30%;
+  width: 60%;
   height: 10px;
 }
 .ValueC{
@@ -180,16 +235,45 @@ ul {
   width: 80%;
   height: 10px;
 }
+.ValueEnglish{
+  width: 70%;
+}
+.ValueCreativity{
+  width: 75%;
+}
+.ValueTeamwork{
+  width: 85%;
+}
 .Miniblock{
-  height: 20px;
+  height: 19px;
   background-color: black;
   text-align: center;
   border-radius: 10px;
   padding: 5px;
   margin: 2px;
+  border: 1px solid black;
+
   color: white;
 }
 .MiniBlockFlex{
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.BackgroundWorksBLock{
+  border: 1px;
+}
+.br{
+  height: 1px;
+  width: 100px;
+  background-color: aquamarinesss;
+}
+.WorksBlock{
+  margin-top: 50px;
+  width: 700px;
+  height: 500px;
 }

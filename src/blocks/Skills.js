@@ -1,13 +1,14 @@
 import React from 'react';
 import '../App.css';
 import { Miniblock } from './Miniblock';
+import { Works } from './Works';
 
 export function Skills() {
 return (
     <div>
         <div className="TopicsName">
             <text>Skills</text></div>
-        <div className=" BlockSkills">
+        <div className="BlockSkills">
             <div className="Skills BlockStyleGlass">
                 <div className="SkillsTopic"><h2>Professional</h2></div>
                 <ul>
@@ -33,16 +34,10 @@ return (
                             <div className="ProgressBarValue ValueReact"></div>
                         </div>
                     </li>
-                    <li><h4>Node.js</h4></li>
+                    <li><h4>Git</h4></li>
                     <li>
                         <div className="ProgressBar" >
                             <div className="ProgressBarValue ValueNode"></div>
-                        </div>
-                    </li>
-                    <li><h4>C</h4></li>
-                    <li>
-                        <div className="ProgressBar" >
-                            <div className="ProgressBarValue ValueC"></div>
                         </div>
                     </li>
                     <li><h4>Photoshop</h4></li>
@@ -55,43 +50,47 @@ return (
                 </ul>
             </div>
             <div className="Skills BlockStyleGlass">
-                <div className="SkillsTopic "><h2>Addition</h2></div>
+                <div className="SkillsTopicAddition "><h2>Addition</h2></div>
                    <ul>
                         <li>
-                        <span className="AdditionTopics">Teamwork</span>
+                        <h4>Teamwork</h4>
                             <div className="ProgressBar" >
-                                <div className="ProgressBarValue ValueHTML"></div>
+                                <div className="AdditionProgressBarValue ValueTeamwork"></div>
                             </div>
                         </li>
                         <li>
-                            <span className="AdditionTopics">Creativity</span>
-                            <div className="ProgressBar" >
-                                <div className="ProgressBarValue ValueJS"></div>
+                            <h4>Creativity</h4>
+                            <div className="AdditionProgressBar" >
+                                <div className="AdditionProgressBarValue ValueCreativity"></div>
                             </div>
                         </li>
                         <li>
-                        <span className="AdditionTopics">English</span>
+                        <h4>English</h4>
                             <div className="ProgressBar" >
-                                <div className="ProgressBarValue ValueReact"></div>
+                                <div className="AdditionProgressBarValue ValueEnglish"></div>
                             </div>
                         </li>
                     </ul>
-                    <br></br>
-                <div className="MiniBlockFlex">
-                <Miniblock  name="Babel"/>
-                <Miniblock  name="SCSS"/>
-                <Miniblock  name="Bootstrap"/>
-                <Miniblock  name="Git"/>
-                <Miniblock  name="MongoDB"/>
-                <Miniblock  name="SCSS"/>
-                <Miniblock  name="Nosql"/>
-                <Miniblock  name="Webpack"/>
-                <Miniblock  name="SCSS"/>
-                <Miniblock  name="SCSS"/>
-                <Miniblock  name="SCSS"/>
+                  
+                    <div className="MiniBlockFlex">
+                        <Miniblock  name="Node.js"/>
+                        <Miniblock  name="SCSS"/>
+                        <Miniblock  name="Bootstrap"/>
+                        <Miniblock  name="SVG"/>
+                        <Miniblock  name="MongoDB"/>
+                        <Miniblock  name="БЭМ"/>
+                        <Miniblock  name="Nosql"/>
+                        <Miniblock  name="C"/>
+                        <Miniblock  name="REST"/>
+                        <Miniblock  name="Webpack"/>
+                        <Miniblock  name="Flex"/>
+                        <Miniblock  name="Express"/>
+                        <Miniblock  name="AJAX"/>
+                    </div>
                 </div>
-                </div>
+                <Works />
         </div>
+        
     </div>
 
 );

@@ -5,11 +5,10 @@ export function Header() {
 return (
     <div className="HeaderBackground">
         <div className="HeaderElements">
-            <text>Samsonov</text>
+            <span className="LogoName"></span>
             <ul className="HeaderRightMenu">
-               <li> <text>Резюме</text></li>
-               <li> <text>База знаний</text></li>
-               <li> <text>Тема</text></li>
+               <li> <span className="HeaderLink">Portfolio</span></li>
+               <li> <span className="HeaderLink">Dark</span></li>
             </ul>
         </div>
     </div>
